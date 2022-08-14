@@ -1,6 +1,10 @@
-const Main = () => (
+const Main = ({
+  title = 'React Boilerplate',
+  description = 'ReactJS, TypeScript, NextJS & Styled Components',
+}) => (
   <main>
-    <h1>React Boilerplate</h1>
+    <h1>{title}</h1>
+    <p>{description}</p>
   </main>
 );
 
